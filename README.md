@@ -4,18 +4,18 @@ Simple alternative to xbacklight. Control screen brightness on linux.
 
 # Why
 
-My laptop do not work with the default xbacklight. Kept searching for a solution but found nothing. So I decide to code my own.
+My laptop do not work with the default xbacklight. Kept searching for a solution but found nothing. So I decidedd to code my own.
 
 # How to use
 
-Download the source code from th realese page or clone the repository.
+Download the source code from the realeses page or clone the repository.
 Give executable permissions to llight.sh
 
 ```sh
 chmod +x src/llight.sh
 ```
 
-Move it to your commom PATH
+Move it to your common PATH
 
 ```sh
 mv src/llight.sh /bin/
