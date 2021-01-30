@@ -9,22 +9,24 @@ My laptop do not work with the default xbacklight. Kept searching for a solution
 # How to use
 
 Download the source code from the realeses page or clone the repository.
-Give executable permissions to llight.sh
+Give executable permissions to llight
 
 ```sh
-chmod +x src/llight.sh
+chmod +x src/llight
 ```
 
 Move it to your common PATH
 
 ```sh
-mv src/llight.sh /bin/
+mv src/llight.sh /bin/ # or /sbin/ or /opt/
 ```
 
-now just run it
+Restart your shell, and you're good to go!
 
 ```sh
-llight.sh [flags]
+reset
+
+llight [flags]
 ```
 
 # What I learned
